@@ -13,3 +13,4 @@ if __name__ == '__main__':
         server.shutdown()
         server.server_close()
 #这只是学习版本，不能用来商用。
+#有任何问题请联系坐着邮箱。
