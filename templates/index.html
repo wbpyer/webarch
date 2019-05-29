@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wangbin</title>
+</head>
+<body>
+show_data<br>
+<ul>
+    {% for id,name,age in userlist %}
+    <li>{{loop.index}} {{id}}, {{name}}, {{age}}
+    </li>
+    {% endfor %}
+</ul>
+total{{usercount}}person
+</body>
+</html>
