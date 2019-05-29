@@ -12,4 +12,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         server.shutdown()
         server.server_close()
-
+#这只是学习版本，不能用来商用。
